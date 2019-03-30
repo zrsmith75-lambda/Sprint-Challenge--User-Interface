@@ -196,6 +196,32 @@ header nav a:hover {
     margin: 25px 0;
 }
 
+hr {
+    width: 95%;
+    border-top: dotted 1px;
+}
+
+.about-box-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-content {
+    margin: 25px;
+    
+}
+
+.about-box {
+    width: 50%;
+}
+
+button {
+    width: 125px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 2px;
+}
+
 footer {
     width: 100%;
     background: black;
