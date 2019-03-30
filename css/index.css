@@ -87,6 +87,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 30px 2%;
+    margin: 0 25px;
 }
 
 header nav a {
@@ -210,8 +211,7 @@ hr {
     justify-content: space-around;
 }
 .about-content {
-    margin: 25px;
-    
+    margin: 25px;  
 }
 
 .about-box {
@@ -220,11 +220,16 @@ hr {
     margin: 20px 0;
 }
 
+.about-box h2 {
+    padding-top: 10px;
+}
+
 button {
     width: 125px;
     font-size: 16px;
     border-radius: 5px;
     padding: 5px 2px;
+    margin-top: 10px;
 }
 
 footer {
