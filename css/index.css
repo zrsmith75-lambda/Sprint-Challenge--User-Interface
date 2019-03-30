@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.logo {
+    width: 100px;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+header nav a:hover {
+    color: darkgray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
