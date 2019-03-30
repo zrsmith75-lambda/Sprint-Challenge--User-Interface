@@ -77,26 +77,31 @@ header {
     align-items: center;
 }
 
-
 .logo {
     width: 100px;
 }
+
 header nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 30px 2%;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    font-size: 1.3em;
+    font-size: 14px;
 }
 
 header nav a:hover {
     color: darkgray;
+}
+
+.index-img {
+    width: 100%;
+    margin: 25px 0;
 }
 
 .top-content {
@@ -179,6 +184,16 @@ header nav a:hover {
 
 .boxes .box#dodgerblue{
     background: dodgerblue;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    width: 25%;
+    margin: 25px 0;
 }
 
 footer {
