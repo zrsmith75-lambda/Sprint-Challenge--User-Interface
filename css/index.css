@@ -101,6 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,18 +113,44 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.boxes .box#teal {
+    background: teal;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.boxes .box#gold {
+    background: gold;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.boxes .box#cadetblue {
+    background: cadetblue;
+}
+
+.boxes .box#coral {
+    background: coral;
+}
+
+.boxes .box#crimson {
+    background: crimson;
+}
+
+.boxes .box#forestgreen {
+    background: forestgreen;
+}
+
+.boxes .box#darkorchid {
+    background: darkorchid;
+}
+
+.boxes .box#hotpink {
+    background: hotpink;
+}
+
+.boxes .box#indigo {
+    background: indigo;
+}
+
+.boxes .box#dodgerblue{
+    background: dodgerblue;
 }
 
 footer {
