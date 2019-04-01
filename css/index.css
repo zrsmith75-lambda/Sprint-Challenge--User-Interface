@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2%;
+    margin: 0 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: darkgray;
+}
+
+.index-img {
+    width: 100%;
+    margin: 25px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +135,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,18 +147,89 @@ p {
     justify-content: center;
 }
 
+.boxes .box#teal {
+    background: teal;
+}
+
+.boxes .box#gold {
+    background: gold;
+}
+
+.boxes .box#cadetblue {
+    background: cadetblue;
+}
+
+.boxes .box#coral {
+    background: coral;
+}
+
+.boxes .box#crimson {
+    background: crimson;
+}
+
+.boxes .box#forestgreen {
+    background: forestgreen;
+}
+
+.boxes .box#darkorchid {
+    background: darkorchid;
+}
+
+.boxes .box#hotpink {
+    background: hotpink;
+}
+
+.boxes .box#indigo {
+    background: indigo;
+}
+
+.boxes .box#dodgerblue{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 95%;
+}
+
+.text-container {
+    width: 25%;
+    margin: 25px 0;
+}
+
+hr {
+    width: 100%;
+    border-top: dotted 1px;
+    margin: 25px 0;
+}
+
+.about-box-content {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-
-.bottom-content .text-container {
-    padding-right: 4%;
+.about-content {
+    margin: 25px;  
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.about-box {
+    align-content: center;
+    width: 45%;
+    margin: 20px 0;
+}
+
+.about-box h2 {
+    padding-top: 10px;
+}
+
+button {
+    width: 125px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin-top: 10px;
 }
 
 footer {
